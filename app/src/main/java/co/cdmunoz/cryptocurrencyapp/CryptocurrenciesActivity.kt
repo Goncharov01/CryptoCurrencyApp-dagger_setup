@@ -7,7 +7,6 @@ import dagger.android.AndroidInjection
 import javax.inject.Inject
 
 class CryptocurrenciesActivity : AppCompatActivity() {
-    //с помощью анатации Inject запрашиваем зависимость
 @Inject
 lateinit var context:Context
   override fun onCreate(savedInstanceState: Bundle?) {
