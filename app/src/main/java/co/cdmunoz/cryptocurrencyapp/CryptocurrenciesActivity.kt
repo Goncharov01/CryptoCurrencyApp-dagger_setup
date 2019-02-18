@@ -11,7 +11,8 @@ class CryptocurrenciesActivity : AppCompatActivity() {
 @Inject
 lateinit var context:Context
   override fun onCreate(savedInstanceState: Bundle?) {
-    AndroidInjection.inject(this)
+    //иньекция зависимости для активити
+      AndroidInjection.inject(this)
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
     println(context)
